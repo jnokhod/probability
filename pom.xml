@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.kbakhtiari</groupId>
+	<artifactId>probability-statistics</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Probability, Statistics, and Random Processes</name>
+	<url>https://nokhod.com</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, version 2.0</name>
+			<url>https://nokhod.com/LICENSE.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>nokhod</name>
+		<url>https://www.nokhod.com</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>khoda</id>
+			<name>Khodabakhsh Bakhtiari</name>
+			<url>http://nokhod.com/</url>
+			<organization>nokhod</organization>
+			<organizationUrl>https://www.nokhod.com/</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:https://github.com/jnokhod/probability</connection>
+		<url>https://github.com/jnokhod/probability</url>
+	</scm>
+
+	<!-- TODO: Add valid artifactory -->
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
+	<modules>
+	</modules>
+
+</project>
